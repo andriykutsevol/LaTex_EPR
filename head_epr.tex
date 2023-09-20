@@ -1,0 +1,76 @@
+\usepackage[cm-default]{fontspec} % or install lmodern and remove cm-default opt
+\usepackage{xunicode} % some extra unicode support
+\usepackage{xltxtra} % \XeLaTeX macro
+\usepackage{indentfirst} % I believe it is better for Russian
+
+\usetheme{Madrid}
+%\usepackage[utf8]{inputenc}
+%\usepackage{pscyr}
+\usepackage{cmap}
+%\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsfonts,amsmath,mathtext}
+\usepackage{cite,enumerate,float,indentfirst}
+
+
+
+\setromanfont{Charis SIL}
+\setsansfont{Times New Roman}
+\setmonofont{Times New Roman}
+\setmainfont{Times New Roman} % this allows to use sans-serif as default font
+
+\tolerance=1000
+\emergencystretch=0.74cm
+\hyphenation{классицис-ти-чес-кой}
+\hyphenation{кирил-ли-чес-ких}
+
+
+\title{Расчет скорости перехода между уровнями Ландау в наклонном магнитном поле в двойной квантовой яме.}
+\author{Куцевол Андрей Александрович.}
+\date{2012}
+
+
+\newcommand{\beq}{\begin{equation}\begin{gathered}}
+\newcommand{\beqn}{\begin{equation}\begin{gathered} \nonumber }
+\newcommand{\eeq}{\end{gathered}\end{equation}}
+
+
+\newcommand{\bdft}{\begin{dft}}
+\newcommand{\edft}{\end{dft}}
+
+\newcommand{\bexe}{\begin{exe}}
+\newcommand{\eexe}{\end{exe}}
+
+\newcommand{\brem}{\begin{rem}}
+\newcommand{\erem}{\end{rem}}
+
+\newcommand{\btrm}{\begin{trm}}
+\newcommand{\etrm}{\end{trm}}
+\newcommand{\angstr}{\stackrel{\circ}{\mathrm{A}}}
+
+\newcommand{\bprf}{\begin{prf}}
+\newcommand{\eprf}{\end{prf}}
+
+
+\newcommand{\pal}{\partial}
+\newcommand{\my}{\mu}
+
+\newcommand{\hx}{\hspace{1ex}}
+\newcommand{\hxx}{\hspace{2ex}}
+\newcommand{\hxxx}{\hspace{3ex}}
+
+
+\newcommand{\bfr}{\mathbf{r}}
+\newcommand{\bft}{\mathbf{t}}
+\newcommand{\bfn}{\mathbf{n}}
+\newcommand{\bfm}{\mathbf{m}}
+\newcommand{\bfi}{\mathbf{i}}
+\newcommand{\bfj}{\mathbf{j}}
+\newcommand{\bfk}{\mathbf{k}}
+\newcommand{\bfb}{\mathbf{b}}
+\newcommand{\bfx}{\mathbf{x}}
+\newcommand{\bfy}{\mathbf{y}}
+\newcommand{\bfz}{\mathbf{z}}
+\newcommand{\bfu}{\mathbf{u}}
+\newcommand{\bfl}{\mathbf{l}}
+\newcommand{\vomg}{\vec{\omega}}
